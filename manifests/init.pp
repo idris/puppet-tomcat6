@@ -4,9 +4,10 @@
 #
 #   include tomcat6
 class tomcat6 {
-  require boxen::config
+  $tomcat6_formula_url = 'https://raw.github.com/Homebrew/homebrew-versions/master/tomcat6.rb'
 
   package { 'tomcat6':
-    ensure => latest
+    ensure => latest,
+    source => $tomcat6_formula_url
   }
 }

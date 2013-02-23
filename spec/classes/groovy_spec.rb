@@ -13,7 +13,6 @@ describe 'tomcat6' do
     }
   end
 
-  it { should include_class('boxen::config') }
   it { should contain_package('tomcat6').with_ensure('latest') }
 
 end
