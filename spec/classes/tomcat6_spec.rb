@@ -13,6 +13,6 @@ describe 'tomcat6' do
     }
   end
 
-  it { should contain_package('tomcat6').with_ensure('latest') }
+  it { should contain_package('tomcat6.rb').with_alias('tomcat6').with_ensure('latest') }
 
 end
