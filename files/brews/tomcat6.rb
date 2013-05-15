@@ -3,7 +3,7 @@ require 'formula'
 # From https://github.com/Homebrew/homebrew-versions/blob/master/tomcat6.rb
 class Tomcat6 < Formula
   homepage 'http://tomcat.apache.org/'
-  url 'http://www.apache.org/dyn/closer.cgi?path=tomcat/tomcat-6/v6.0.36/bin/apache-tomcat-6.0.36.tar.gz'
+  url 'http://archive.apache.org/dist/tomcat/tomcat-6/v6.0.36/bin/apache-tomcat-6.0.36.tar.gz'
   sha1 'bfbc3944f0b2f87890e61bf31583ddb7cdf20fc0'
   version '6.0.36-boxen1'
 
